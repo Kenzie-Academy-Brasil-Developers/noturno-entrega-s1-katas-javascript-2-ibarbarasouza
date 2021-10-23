@@ -67,7 +67,7 @@ function fibonacci (n){
             listaNum[i] = add(listaNum[(i-2)],listaNum[i-1])    
         }
     }
-    return (listaNum) // n-1 para satisção da condição interpretando que a a contagem dos elementos da lista começa por 1, 2, 3, 4...
+    return (listaNum[(n-1)]) // n-1 para satisção da condição interpretando que a a contagem dos elementos da lista começa por 1, 2, 3, 4...
 }
 // descomente a linha seguinte para testar sua função
-//console.assert(fibonacci(8) === 13, 'A função fibonacci não está funcionando como esperado');
+console.assert(fibonacci(8) === 13, 'A função fibonacci não está funcionando como esperado');
